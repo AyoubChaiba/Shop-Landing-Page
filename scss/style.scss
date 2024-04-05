@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: "Rubik", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    .search {
+        gap: 25px;
+        input {
+            background-color: transparent;
+            border: 1px solid #c7c5c5;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            padding: 2px 10px;
+        }
+        input:focus {
+            outline: none;
+        }
+        i {
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .btn-header {
+        gap: 25px;
+        button {
+            background-color: transparent;
+            border: 1px solid #c7c5c5;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            padding: 2px 10px;
+        }
+    }
+}
+
+.hero {
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(148,8,182,1) 0%, rgba(46,51,205,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    .img-hero {
+        width: 200px;
+        height: 200px;
+    }
+    .text-hero {
+        h1 {
+            color: aliceblue;
+            font-size: clamp(1.5rem, 2.5vw, 4rem);
+        }
+        button {
+            background-color: transparent;
+            border: 2px solid #c7c5c5;
+            border-radius: 5px;
+            padding: 2px 10px;
+            color: aliceblue;
+        }
+        button:hover {
+            background-color: #c7c5c5;
+            color: #111;
+        }
+    }
+}
+
+section {
+    .head-cards {
+        h3 {
+            color: #333;
+            font-size: 19px;
+        }
+    }
+    .cards {
+        .card {
+            border-radius: 9px;
+            -webkit-border-radius: 9px;
+            -moz-border-radius: 9px;
+            -ms-border-radius: 9px;
+            -o-border-radius: 9px;
+            padding: 15px;
+
+            button {
+                background-color: rgba(148,8,182,1);
+                border-radius: 5px;
+                padding: 3px 10px;
+                color: aliceblue;
+            }
+        }
+    }
+}
+
